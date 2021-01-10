@@ -32,8 +32,8 @@ public class HomeController {
 	
 	@RequestMapping("/index")
 	public String home() {
+		System.out.println("Changes Done for 2nd time.............");
 		return "index";
-
 	}
 	@RequestMapping("/")
 	public String addEmployee() {
