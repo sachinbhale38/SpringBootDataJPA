@@ -27,7 +27,7 @@ public class HomeController {
 	@ModelAttribute
 	public void modelData(Model m) {
 		m.addAttribute("name", "employees");
-		
+	System.out.println("Changes done in home controller................");	
 	}
 	
 	@RequestMapping("/index")
