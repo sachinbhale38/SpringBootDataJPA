@@ -27,6 +27,7 @@ public class EmployeeController {
 	//@ResponseBody-required for normal controller
 	public List<Employee> getEmployees() {
 		List<Employee> l = r.findAll();
+		System.out.println("Changes Done in Employee Controller...........");
 		return l;
 	}
 	
